@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00718ED627B10D4A001E053E /* KodomoCounselorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00718ED527B10D4A001E053E /* KodomoCounselorApp.swift */; };
+		00718ED827B10D4A001E053E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00718ED727B10D4A001E053E /* ContentView.swift */; };
+		00718EDA27B10D4D001E053E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00718ED927B10D4D001E053E /* Assets.xcassets */; };
+		00718EDD27B10D4D001E053E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00718EDC27B10D4D001E053E /* Preview Assets.xcassets */; };
+		00718EDF27B10D4D001E053E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00718EDE27B10D4D001E053E /* Persistence.swift */; };
+		00718EE227B10D4D001E053E /* KodomoCounselor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00718EE027B10D4D001E053E /* KodomoCounselor.xcdatamodeld */; };
+		00718EEC27B10D4E001E053E /* KodomoCounselorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00718EEB27B10D4E001E053E /* KodomoCounselorTests.swift */; };
+		00718EF627B10D4E001E053E /* KodomoCounselorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00718EF527B10D4E001E053E /* KodomoCounselorUITests.swift */; };
+		00718EF827B10D4E001E053E /* KodomoCounselorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00718EF727B10D4E001E053E /* KodomoCounselorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00718EE827B10D4E001E053E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00718ECA27B10D4A001E053E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00718ED127B10D4A001E053E;
+			remoteInfo = KodomoCounselor;
+		};
+		00718EF227B10D4E001E053E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00718ECA27B10D4A001E053E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00718ED127B10D4A001E053E;
+			remoteInfo = KodomoCounselor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00718ED227B10D4A001E053E /* KodomoCounselor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KodomoCounselor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00718ED527B10D4A001E053E /* KodomoCounselorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodomoCounselorApp.swift; sourceTree = "<group>"; };
+		00718ED727B10D4A001E053E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00718ED927B10D4D001E053E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00718EDC27B10D4D001E053E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00718EDE27B10D4D001E053E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		00718EE127B10D4D001E053E /* KodomoCounselor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KodomoCounselor.xcdatamodel; sourceTree = "<group>"; };
+		00718EE727B10D4E001E053E /* KodomoCounselorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KodomoCounselorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00718EEB27B10D4E001E053E /* KodomoCounselorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodomoCounselorTests.swift; sourceTree = "<group>"; };
+		00718EF127B10D4E001E053E /* KodomoCounselorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KodomoCounselorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00718EF527B10D4E001E053E /* KodomoCounselorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodomoCounselorUITests.swift; sourceTree = "<group>"; };
+		00718EF727B10D4E001E053E /* KodomoCounselorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodomoCounselorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00718ECF27B10D4A001E053E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00718EE427B10D4E001E053E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00718EEE27B10D4E001E053E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00718EC927B10D4A001E053E = {
+			isa = PBXGroup;
+			children = (
+				00718ED427B10D4A001E053E /* KodomoCounselor */,
+				00718EEA27B10D4E001E053E /* KodomoCounselorTests */,
+				00718EF427B10D4E001E053E /* KodomoCounselorUITests */,
+				00718ED327B10D4A001E053E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00718ED327B10D4A001E053E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00718ED227B10D4A001E053E /* KodomoCounselor.app */,
+				00718EE727B10D4E001E053E /* KodomoCounselorTests.xctest */,
+				00718EF127B10D4E001E053E /* KodomoCounselorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00718ED427B10D4A001E053E /* KodomoCounselor */ = {
+			isa = PBXGroup;
+			children = (
+				00718ED527B10D4A001E053E /* KodomoCounselorApp.swift */,
+				00718ED727B10D4A001E053E /* ContentView.swift */,
+				00718ED927B10D4D001E053E /* Assets.xcassets */,
+				00718EDE27B10D4D001E053E /* Persistence.swift */,
+				00718EE027B10D4D001E053E /* KodomoCounselor.xcdatamodeld */,
+				00718EDB27B10D4D001E053E /* Preview Content */,
+			);
+			path = KodomoCounselor;
+			sourceTree = "<group>";
+		};
+		00718EDB27B10D4D001E053E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00718EDC27B10D4D001E053E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00718EEA27B10D4E001E053E /* KodomoCounselorTests */ = {
+			isa = PBXGroup;
+			children = (
+				00718EEB27B10D4E001E053E /* KodomoCounselorTests.swift */,
+			);
+			path = KodomoCounselorTests;
+			sourceTree = "<group>";
+		};
+		00718EF427B10D4E001E053E /* KodomoCounselorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00718EF527B10D4E001E053E /* KodomoCounselorUITests.swift */,
+				00718EF727B10D4E001E053E /* KodomoCounselorUITestsLaunchTests.swift */,
+			);
+			path = KodomoCounselorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00718ED127B10D4A001E053E /* KodomoCounselor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00718EFB27B10D4E001E053E /* Build configuration list for PBXNativeTarget "KodomoCounselor" */;
+			buildPhases = (
+				00718ECE27B10D4A001E053E /* Sources */,
+				00718ECF27B10D4A001E053E /* Frameworks */,
+				00718ED027B10D4A001E053E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KodomoCounselor;
+			productName = KodomoCounselor;
+			productReference = 00718ED227B10D4A001E053E /* KodomoCounselor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00718EE627B10D4E001E053E /* KodomoCounselorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00718EFE27B10D4E001E053E /* Build configuration list for PBXNativeTarget "KodomoCounselorTests" */;
+			buildPhases = (
+				00718EE327B10D4E001E053E /* Sources */,
+				00718EE427B10D4E001E053E /* Frameworks */,
+				00718EE527B10D4E001E053E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00718EE927B10D4E001E053E /* PBXTargetDependency */,
+			);
+			name = KodomoCounselorTests;
+			productName = KodomoCounselorTests;
+			productReference = 00718EE727B10D4E001E053E /* KodomoCounselorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00718EF027B10D4E001E053E /* KodomoCounselorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00718F0127B10D4E001E053E /* Build configuration list for PBXNativeTarget "KodomoCounselorUITests" */;
+			buildPhases = (
+				00718EED27B10D4E001E053E /* Sources */,
+				00718EEE27B10D4E001E053E /* Frameworks */,
+				00718EEF27B10D4E001E053E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00718EF327B10D4E001E053E /* PBXTargetDependency */,
+			);
+			name = KodomoCounselorUITests;
+			productName = KodomoCounselorUITests;
+			productReference = 00718EF127B10D4E001E053E /* KodomoCounselorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00718ECA27B10D4A001E053E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					00718ED127B10D4A001E053E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					00718EE627B10D4E001E053E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 00718ED127B10D4A001E053E;
+					};
+					00718EF027B10D4E001E053E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 00718ED127B10D4A001E053E;
+					};
+				};
+			};
+			buildConfigurationList = 00718ECD27B10D4A001E053E /* Build configuration list for PBXProject "KodomoCounselor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00718EC927B10D4A001E053E;
+			productRefGroup = 00718ED327B10D4A001E053E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00718ED127B10D4A001E053E /* KodomoCounselor */,
+				00718EE627B10D4E001E053E /* KodomoCounselorTests */,
+				00718EF027B10D4E001E053E /* KodomoCounselorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00718ED027B10D4A001E053E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00718EDD27B10D4D001E053E /* Preview Assets.xcassets in Resources */,
+				00718EDA27B10D4D001E053E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00718EE527B10D4E001E053E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00718EEF27B10D4E001E053E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00718ECE27B10D4A001E053E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00718EDF27B10D4D001E053E /* Persistence.swift in Sources */,
+				00718ED827B10D4A001E053E /* ContentView.swift in Sources */,
+				00718ED627B10D4A001E053E /* KodomoCounselorApp.swift in Sources */,
+				00718EE227B10D4D001E053E /* KodomoCounselor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00718EE327B10D4E001E053E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00718EEC27B10D4E001E053E /* KodomoCounselorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00718EED27B10D4E001E053E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00718EF827B10D4E001E053E /* KodomoCounselorUITestsLaunchTests.swift in Sources */,
+				00718EF627B10D4E001E053E /* KodomoCounselorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00718EE927B10D4E001E053E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00718ED127B10D4A001E053E /* KodomoCounselor */;
+			targetProxy = 00718EE827B10D4E001E053E /* PBXContainerItemProxy */;
+		};
+		00718EF327B10D4E001E053E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00718ED127B10D4A001E053E /* KodomoCounselor */;
+			targetProxy = 00718EF227B10D4E001E053E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00718EF927B10D4E001E053E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00718EFA27B10D4E001E053E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00718EFC27B10D4E001E053E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KodomoCounselor/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WXYVCR69T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misa.KodomoCounselor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00718EFD27B10D4E001E053E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KodomoCounselor/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WXYVCR69T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misa.KodomoCounselor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00718EFF27B10D4E001E053E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WXYVCR69T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misa.KodomoCounselorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KodomoCounselor.app/KodomoCounselor";
+			};
+			name = Debug;
+		};
+		00718F0027B10D4E001E053E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WXYVCR69T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misa.KodomoCounselorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KodomoCounselor.app/KodomoCounselor";
+			};
+			name = Release;
+		};
+		00718F0227B10D4E001E053E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WXYVCR69T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misa.KodomoCounselorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KodomoCounselor;
+			};
+			name = Debug;
+		};
+		00718F0327B10D4E001E053E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WXYVCR69T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misa.KodomoCounselorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KodomoCounselor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00718ECD27B10D4A001E053E /* Build configuration list for PBXProject "KodomoCounselor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00718EF927B10D4E001E053E /* Debug */,
+				00718EFA27B10D4E001E053E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00718EFB27B10D4E001E053E /* Build configuration list for PBXNativeTarget "KodomoCounselor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00718EFC27B10D4E001E053E /* Debug */,
+				00718EFD27B10D4E001E053E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00718EFE27B10D4E001E053E /* Build configuration list for PBXNativeTarget "KodomoCounselorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00718EFF27B10D4E001E053E /* Debug */,
+				00718F0027B10D4E001E053E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00718F0127B10D4E001E053E /* Build configuration list for PBXNativeTarget "KodomoCounselorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00718F0227B10D4E001E053E /* Debug */,
+				00718F0327B10D4E001E053E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00718EE027B10D4D001E053E /* KodomoCounselor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00718EE127B10D4D001E053E /* KodomoCounselor.xcdatamodel */,
+			);
+			currentVersion = 00718EE127B10D4D001E053E /* KodomoCounselor.xcdatamodel */;
+			path = KodomoCounselor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00718ECA27B10D4A001E053E /* Project object */;
+}
